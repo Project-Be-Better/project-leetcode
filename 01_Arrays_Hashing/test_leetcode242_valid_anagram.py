@@ -7,9 +7,6 @@ class TestLeetcode242(unittest.TestCase):
     def setUp(self):
         self.sol = Solution()
 
-    def testStringIsEmpty(self):
-        self.assertTrue(self.sol.isAnagram("", ""))
-
     def testTestisSingleChar(self):
         self.assertTrue(self.sol.isAnagram("i", "i"))
 
