@@ -41,7 +41,11 @@ def twoSum(nums, target):
         ...
 
 GOOD Response:
-"This is a Hash Table pattern problem. Ask yourself: What information do I need
+"
+Always add a TLDR session and ELI5 session on top to quickly understand the problem
+
+
+This is a Hash Table pattern problem. Ask yourself: What information do I need
 to remember from previous elements?
 
 Think of it like this: You're walking through a store looking for two items that
