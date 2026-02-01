@@ -13,8 +13,13 @@ class Solution217:
         # len(0) != len(0) -> False
 
         # Long winded
+        """
         nums_set = set(nums)
         if len(nums_set) != len(nums):
             return True
 
         return False
+        """
+
+        nums_set = set(nums)
+        return len(nums_set) != len(nums)
