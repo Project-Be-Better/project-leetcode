@@ -19,6 +19,9 @@ class TestLeetcode242(unittest.TestCase):
     def testDifferentStringLengths(self):
         self.assertFalse(self.sol.isAnagram("anagram", "nagarami"))
 
+    def test_unicode_anagram(self):
+        self.assertTrue(self.sol.isAnagram("😀a", "a😀"))
+
 
 if __name__ == "__main__":
     unittest.main()
