@@ -1,5 +1,9 @@
 from typing import List
 
+# Pattern Category : Sets
+
+# TradeOffs : It does not exit the moment a duplicate is found
+
 
 class Solution217:
 
