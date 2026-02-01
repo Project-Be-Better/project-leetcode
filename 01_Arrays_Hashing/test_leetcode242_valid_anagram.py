@@ -8,19 +8,19 @@ class TestLeetcode242(unittest.TestCase):
         self.sol = Solution()
 
     def testStringIsEmpty(self):
-        pass
+        self.assertTrue(self.sol.isAnagram("", ""))
 
     def testTestisSingleChar(self):
-        pass
+        self.assertTrue(self.sol.isAnagram("i", "i"))
 
     def testValidAnagram(self):
-        pass
+        self.assertTrue(self.sol.isAnagram("anagram", "nagaram"))
 
     def testNOTValidAnagram(self):
-        pass
+        self.assertFalse(self.sol.isAnagram("rat", "car"))
 
     def testDifferentStringLengths(self):
-        pass
+        self.assertFalse(self.sol.isAnagram("anagram", "nagarami"))
 
 
 if __name__ == "__main__":

@@ -28,9 +28,10 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt yo
 
 
 class Solution:
-    def isAnagram(self, s, t):
+    def isAnagram(self, s, t) -> bool:
         """
         :type s: str
         :type t: str
         :rtype: bool
         """
+        pass
