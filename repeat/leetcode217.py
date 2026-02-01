@@ -25,5 +25,16 @@ class Solution217:
         return False
         """
 
+        """
+
         nums_set = set(nums)
         return len(nums_set) != len(nums)
+        """
+
+        seen = set()
+
+        for i in nums:
+            if i in seen:
+                return True
+            seen.add(i)
+        return False
